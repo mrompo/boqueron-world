@@ -65,23 +65,19 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+        <div class="top-right links">
+            <a href="{{route('home')}}">Home</a>
+            <a href="{{route('gallery')}}">Gallery</a>
+            <a href="{{route('reproduction')}}">Reproduction</a>
+            <a href="{{route('habitat')}}">habitat</a>
+            <a href="{{route('classification')}}">classification</a>
+            <a href="{{route('anatomy')}}">anatomy</a>
+            <a href="{{route('behavior')}}">behavior</a>
+        </div>
 
             <div class="content">
-                <div class="title m-b-md">
-Habitat                </div>
+            <b>Hábitat animal</b>
+<p>Esta especie abunda en el Océano Pacífico y el Atlántico, aunque también se encuentra en los mares Mediterráneo y Negro.</p><p>Vive a más de 100 metros de profundidad en grandes bancos.</p><p>En los meses de primavera y verano, cuando el sol calienta la superficie de las aguas del mar, los bancos de boquerones ascienden a las capas más superficiales para alimentarse y reproducirse. Mientras que durante el invierno los boquerones permanecen a más de 100 metros de profundidad.</p>
             </div>
         </div>
     </body>

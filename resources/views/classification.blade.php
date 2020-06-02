@@ -65,24 +65,20 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+        <div class="top-right links">
+            <a href="{{route('home')}}">Home</a>
+            <a href="{{route('gallery')}}">Gallery</a>
+            <a href="{{route('reproduction')}}">Reproduction</a>
+            <a href="{{route('habitat')}}">habitat</a>
+            <a href="{{route('classification')}}">classification</a>
+            <a href="{{route('anatomy')}}">anatomy</a>
+            <a href="{{route('behavior')}}">behavior</a>
+        </div>
 
             <div class="content">
-                <div class="title m-b-md">
-                    Clasification
-                </div>
+            <b>Nombre científico y clasificación</b>
+<p><b>Tipos de boquerones</b><br></p><p>(ES) Anchoíta Engraulis anchoita</p><p>(EN) Argentine anchovy</p><p>(FR) Anchois d'Argentine</p><p>También conocida como anchoa de Argentina. Es la especie más pequeña de la familia Engraulidae. Abunda en la costa oriental de Argentina, Uruguay y Brasil.
+</p><p><br></p><p>(ES) Anchoíta japonesa Engraulis japonicus</p><p>(EN) Japanese anchovy</p><p>(FR) Anchois japonais</p><p>Viven en aguas niponas y en los océanos Pacífico e Índico.</p><p><br></p><p>(ES) Anchoa de California Engraulis mordax</p><p>(EN) Californian anchovy</p><p>(FR) Anchois de Californie</p><p>Se distribuye por los océanos Índico y Pacífico.</p><p><br></p><p>(ES) Boquerón Aduanero Encrasicholina heteroloba</p><p>(EN) Shorthead anchovy</p><p>(FR) Anchois douanier</p><p>Vive en las aguas tropicales de los océanos Pacífico e Índico.</p>
             </div>
         </div>
     </body>
