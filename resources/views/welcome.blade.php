@@ -85,8 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://localhost:8080">Home</a>
-                    <a href="http://localhost:8080/image-gallery">IMAGE GALLERY</a>
+                    <a href="{{route('home')}}">Home</a>
+                    <a href="{{route('gallery')}}">IMAGE GALLERY</a>
                     <a href="http://localhost:8080/reproduction-information">MATTING AND  REPRODUCTION INFORMATION</a>
                     <a href="http://localhost:8080/habitat">ANIMAL HABITAT</a>
                     <a href="http://localhost:8080/sc-name-classification">SCIENTIFIC NAME AND CLASSIFICATION</a>

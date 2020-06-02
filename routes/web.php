@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {return view('welcome');});
-Route::get('/image-gallery', function () {return view('image-gallery');});
+Route::get('/', function () {return view('welcome');})->name('home');
+Route::get('/image-gallery', function () {return view('image-gallery');})->name('gallery');
 Route::get('/reproduction-information', function () {return view('reproduction');});
 Route::get('/habitat', function () {return view('habitat');});
 Route::get('/sc-name-classification', function () {return view('classification');});
