@@ -80,10 +80,9 @@
 
         <div class="content">
             <b>Apareamiento y reproducción</b>
-            <p>El <b>boquerón o longorón</b>, Engraulis encrasicolus, se trata de una especie gonocórica, ovípara, con fecundación externa y desove fraccionado a lo largo del año.
-                Esta especie presenta un ciclo de vida corto, con 3 a 4 años de longevidad y un rápido crecimiento, presentando la primera madurez sexual al término del primer año de vida.</p>
-            <p>La época reproductiva se desarrolla a fines de invierno, entre los meses de julio y septiembre. cerca de la costa. Sus huevos son planctónicos es decir, con desarrollo embrionario muy rápido 24 – 65 horas. Las larvas están presentes es zonas de afloramientos.</p><br>
-            <p><i>Para más información consulte: <a href="https://accedacris.ulpgc.es/bitstream/10553/7528/5/0663065_00000_0000.pdf"> aquí </a></i></p>
+            <p>El<strong> boquer&oacute;n o longor&oacute;n</strong>, Engraulis encrasicolus, se trata de una especie gonoc&oacute;rica, ov&iacute;para, con fecundaci&oacute;n externa y desove fraccionado a lo largo del a&ntilde;o.<br /><br /><img src="https://www.pescaderiascorunesas.es/tienda-online/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/boquer_n_edit.jpg" alt="" width="800" height="800" /></p>
+            <p>Esta especie presenta un ciclo de vida corto, con 3 a 4 a&ntilde;os de longevidad y un r&aacute;pido crecimiento, presentando la primera madurez sexual al t&eacute;rmino del primer a&ntilde;o de vida. La &eacute;poca reproductiva se desarrolla a fines de invierno, entre los meses de julio y septiembre. cerca de la costa. Sus huevos son planct&oacute;nicos es decir, con desarrollo embrionario muy r&aacute;pido 24 &ndash; 65 horas. Las larvas est&aacute;n presentes es zonas de afloramientos.</p>
+            <p style="text-align: center;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9e8N5dY4c2SJr5rm5d-uJqCww9lvpmmbwT3SHqNRlmXq5yuWp&amp;s" alt="" width="259" height="194" /></p>
         </div>
     </div>
 </body>
