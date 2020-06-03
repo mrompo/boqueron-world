@@ -53,6 +53,7 @@
       <a href="{{route('curiosidades')}}">curiosidades</a>
       <a href="{{route('infografia')}}">infografía</a>
       <a href="{{route('alimentacion')}}">alimentación</a>
+      <a href="{{route('about')}}">about</a>
     </div>
   </div>
 

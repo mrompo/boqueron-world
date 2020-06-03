@@ -9,6 +9,7 @@
       <a href="{{route('classification')}}">SCIENTIFIC NAME AND CLASSIFICATION</a>
       <a href="{{route('anatomy')}}">ANIMAL ANATOMY AND BIOLOGY</a>
       <a href="{{route('behavior')}}">ANIMAL BEHAVIOR</a>
+      <a href="{{route('about')}}">ABOUT</a>
     </div>
   </div>
 </footer>

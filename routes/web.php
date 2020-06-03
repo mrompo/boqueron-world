@@ -25,3 +25,4 @@ Route::get('/animal-behavior', function () {return view('behavior');})->name('be
 Route::get('/curiosidades', function () {return view('curiosidades');})->name('curiosidades');
 Route::get('/infografía', function () {return view('infografia');})->name('infografia');
 Route::get('/alimentación', function () {return view('alimentacion');})->name('alimentacion');
+Route::get('/about', function () {return view('about');})->name('about');
