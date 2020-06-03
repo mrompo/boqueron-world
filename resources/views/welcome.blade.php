@@ -14,7 +14,7 @@
     <style>
         html,
         body {
-            background-color: #fff;
+            background-color: #b1bae8;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -76,6 +76,9 @@
             <a href="{{route('classification')}}">classification</a>
             <a href="{{route('anatomy')}}">anatomy</a>
             <a href="{{route('behavior')}}">behavior</a>
+            <a href="{{route('curiosidades')}}">curiosidades</a>
+            <a href="{{route('infografia')}}">infografía</a>
+            <a href="{{route('alimentacion')}}">alimentación</a>
         </div>
 
         <div class="content">

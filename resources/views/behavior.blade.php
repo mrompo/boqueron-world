@@ -14,7 +14,7 @@
     <style>
         html,
         body {
-            background-color: #fff;
+            background-color: #b1bae8;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -68,7 +68,7 @@
 
 <body>
     <div class="flex-center position-ref full-height">
-        <div class="top-right links">
+    <div class="top-right links">
             <a href="{{route('home')}}">Home</a>
             <a href="{{route('gallery')}}">Gallery</a>
             <a href="{{route('reproduction')}}">Reproduction</a>
@@ -76,14 +76,18 @@
             <a href="{{route('classification')}}">classification</a>
             <a href="{{route('anatomy')}}">anatomy</a>
             <a href="{{route('behavior')}}">behavior</a>
+            <a href="{{route('curiosidades')}}">curiosidades</a>
+            <a href="{{route('infografia')}}">infografía</a>
+            <a href="{{route('alimentacion')}}">alimentación</a>
         </div>
 
         <div class="content">
-            <b>Conductas y hábitos</b>
-            <p>Forman densos <i>cardúmenes*</i> que ascienden a la superficie durante la noche desde profundidades medias, para alimentarse de plancton; las especies más grandes suplementan su dieta con otros peces.</p>
-            <p><i>* Un cardumen, también llamado banco de peces, es un conjunto de peces similares, no necesariamente de especies comerciales. Y puede no ser tampoco específica a una especie. Se reserva el término "banco" para grupos de la misma especie, nadando en una alta sincronización y de manera polarizada.</i></p>
-            <p>Efectúa la puesta entre junio y julio; los huevos, de una peculiar forma alargada, flotan durante dos o tres días tras la fecundación hasta la eclosión de los alevines. Estos crecen muy lentamente (ejemplares de un año pueden medir menos de 3 cm) hasta alcanzar el tamaño adulto.</p>
-        </div>
+
+        <h1>Conductas y hábitos</h1>
+<p>Forman densos card&uacute;menes*&nbsp;que ascienden a la superficie durante la noche desde profundidades medias, para alimentarse de&nbsp;plancton; las especies m&aacute;s grandes suplementan su dieta con otros peces.</p>
+<p><em>* Un cardumen, tambi&eacute;n llamado&nbsp;banco de peces,&nbsp;es un conjunto de&nbsp;peces&nbsp;similares, no necesariamente de especies comerciales. Y puede no ser tampoco espec&iacute;fica a una especie. Se reserva el t&eacute;rmino&nbsp;"banco"&nbsp;para grupos de la misma especie, nadando en una alta sincronizaci&oacute;n y de manera polarizada.</em></p>
+<p>&nbsp;Efect&uacute;a la puesta entre junio y julio; los&nbsp;huevos, de una peculiar forma alargada, flotan durante dos o tres d&iacute;as tras la&nbsp;fecundaci&oacute;n&nbsp;hasta la eclosi&oacute;n de los&nbsp;alevines. Estos crecen muy lentamente (ejemplares de un a&ntilde;o pueden medir menos de 3&nbsp;cm) hasta alcanzar el tama&ntilde;o adulto.</p>
+<p style="text-align: center;">&nbsp;<img src="https://www.eldiario.es/fotos/Cortesia-Integration-Application-University-Environmental_EDIIMA20180402_0062_20.jpg" alt="" width="394" height="306" /></p></div>
     </div>
 </body>
 
